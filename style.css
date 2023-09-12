@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.game{
+    width: 300px;
+    height: 400px;
+    background-color: #ddd;
+    margin: 20px auto;
+}
+.game .title{
+    width: 280px;
+    height:30px;
+    background-color: #009688;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+}
+.game .squers{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding: 10px;
+}
+.game .square{
+    width: calc(97% / 3);
+    height:100px;
+    background-color: #009688;
+    margin-bottom: 1%;
+    margin-right: 1%;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game .square:hover{
+    background-color: black;
+}
